@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Zilla Slab', serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+
+
+  background:linear-gradient(180deg, rgba(7, 14, 48, 0.9) 0%, rgba(7, 14, 48, 0.2) 100%),url(assets/patronRick.png) center center repeat ;
+
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+/* Animaciones Globales */
+
+
+    @keyframes degradadoEnlace {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+    }

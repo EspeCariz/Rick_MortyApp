@@ -1,0 +1,23 @@
+
+import styled from 'styled-components';
+
+const BuscadorContainer = styled.div`
+
+    .input {
+        width: 40%; border-radius: 8px;
+        border: 2px solid #0b5ed7;
+        box-shadow: 1px 3px 9px rgba($color: #000000, $alpha: 0.25);
+        padding: 10px 15px;
+        &:focus { outline: none; }
+    }
+    .btn {
+        box-shadow: 1px 3px 9px rgba($color: #000000, $alpha: 0.25);
+    }
+    @media (max-width: 576px) {
+        .input { width: 80%; }
+    }
+
+`;
+
+export default BuscadorContainer;
+
